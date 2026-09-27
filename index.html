@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Система заявок в общежитие</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Подача заявки в общежитие</h2>
+
+        <form id="dormForm">
+            <label>ID студента: <input type="text" id="studentId" required></label>
+            <label>Номер корпуса: <input type="text" id="buildingNumber" required></label>
+            <label>Номер комнаты: <input type="text" id="roomNumber" required></label>
+            <button type="submit">Проверить</button>
+        </form>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
